@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    color:#1f1f1f;
+}
+
+body{
+    background-color:#afafaf;
+}
+
+
+.task-checked p{
+    text-decoration:line-through;
+}
+
+/*  */
+
+header{
+    display: flex;
+    justify-content:center;
+    font-size:2em;
+}
+main{
+    display:grid;
+    justify-content:center;
+}
+
+input{
+    font-size:2rem;
+    background:transparent;
+    outline:none;
+    border:none;
+    border-bottom:2px solid #008ecf;
+    margin-right:10px;
+    width:400px;
+    margin-bottom: 20px;
+}
+
+#div-add button{
+    background-color:#008ecf;
+    padding:4px;
+    font-size: 1.2em;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+
+}
+
+li{
+    display:flex;
+    /* flex-flow: row wrap; */
+    /* justify-content:center; */
+    margin-bottom: 20px;
+}
+
+p{
+    font-size:1.2rem;
+    overflow-wrap: break-word;
+    max-width:380px;
+    flex:75%;
+    /* border:3px solid blue; */
+
+}
+
+i{
+    font-size: 1.5em;
+}
+.bxs-trash{
+    flex:15%;
+    color: red;
+}
+
+.bx-checkbox, .bx-checkbox-checked{
+    display:flex;
+    height: 100%;
+    align-items: center;
+    /* flex:10px; */
+    color:#008ecf
+}

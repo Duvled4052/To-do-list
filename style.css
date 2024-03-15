@@ -10,7 +10,7 @@ body{
 }
 
 
-.task-checked p{
+.checked p{
     text-decoration:line-through;
 }
 
@@ -46,7 +46,7 @@ input{
 button{
     background-color: transparent;
     border:none;
-
+    cursor: pointer;
 }
 
 li{
@@ -54,6 +54,7 @@ li{
     /* flex-flow: row wrap; */
     /* justify-content:center; */
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 p{
@@ -79,4 +80,8 @@ i{
     align-items: center;
     /* flex:10px; */
     color:#008ecf
+}
+
+.bx-checkbox-checked p{
+    text-decoration: line-through;
 }
